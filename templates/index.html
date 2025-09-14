@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VulnLite - CSV Upload</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <style>
+    body { background: #f4f6f9; }
+    .upload-card { max-width: 600px; margin: 80px auto; box-shadow: 0 6px 20px rgba(0,0,0,0.1); border-radius: 15px; }
+    .card-header { background: #0d6efd; color: white; font-weight: bold; font-size: 1.2rem; border-top-left-radius: 15px; border-top-right-radius: 15px; }
+    .btn-primary { width: 100%; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card upload-card">
+      <div class="card-header text-center">
+        <i class="bi bi-shield-lock-fill"></i> VulnLite - Nessus CSV Analiz
+      </div>
+      <div class="card-body">
+        <p class="text-muted text-center mb-4">Nessus çıktınızı (.csv) yükleyin ve zafiyetleri analiz edin</p>
+        <form method="POST" enctype="multipart/form-data">
+          <div class="mb-3">
+            <input type="file" name="file" accept=".csv" class="form-control" required>
+          </div>
+          <button type="submit" class="btn btn-primary"><i class="bi bi-upload"></i> Yükle ve Analiz Et</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

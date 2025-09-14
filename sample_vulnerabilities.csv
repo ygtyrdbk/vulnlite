@@ -1,0 +1,16 @@
+Host,Risk Factor,CVE,CVSS v2.0 Base Score,Name
+192.168.1.10,Critical,CVE-2024-1234,9.8,OpenSSL Buffer Overflow
+192.168.1.11,High,CVE-2023-4567,7.5,Apache HTTPD DoS
+192.168.1.12,Medium,CVE-2022-7890,5.0,MySQL Information Disclosure
+192.168.1.13,Low,CVE-2021-1111,3.1,SSH Weak Cipher
+192.168.1.14,Info,-,0.0,Traceroute Enabled
+192.168.1.15,Critical,CVE-2024-5678,10.0,Windows RDP Remote Code Execution
+192.168.1.16,High,CVE-2023-2345,8.1,Tomcat Directory Traversal
+192.168.1.17,Medium,CVE-2022-9876,6.5,PHP Remote File Inclusion
+192.168.1.18,Low,CVE-2020-1350,4.3,DNS SIGRed Vulnerability
+192.168.1.19,Critical,CVE-2024-8765,9.9,Exchange Server Privilege Escalation
+192.168.1.20,High,CVE-2021-34527,8.8,PrintNightmare
+192.168.1.21,Medium,CVE-2019-0708,5.5,BlueKeep
+192.168.1.22,Low,CVE-2018-1000115,3.7,Git Remote Code Execution
+192.168.1.23,Info,-,0.0,ICMP Timestamp Response
+192.168.1.24,Critical,CVE-2023-9999,9.7,Linux Kernel Privilege Escalation
