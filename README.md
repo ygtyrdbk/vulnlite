@@ -26,7 +26,7 @@ Ardından tarayıcıdan `http://127.0.0.1:5000` adresini açın.
 ## 📝 Örnek
 CSV dosyası yükleyin, ardından tablo, risk dağılım grafiği ve fix date takibini görün.
 
-![screenshot] /demo.png)
+![Screenshot](docs/demo.png)
 
 ## 📜 Lisans
 MIT
